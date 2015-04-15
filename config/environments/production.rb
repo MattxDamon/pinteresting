@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Setting devise host
+   config.action_mailer.default_url_options = { host: 'mrb-omr-pinteresting.herokuapp.com'}
 end
