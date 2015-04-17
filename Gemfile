@@ -5,6 +5,8 @@ ruby '2.0.0'
 
 gem 'rails', '4.2.0'
 
+gem 'paperclip', '~> 4.2'
+
 gem 'devise','~>3.4.1'
 
 gem 'sass-rails', '~> 5.0'
